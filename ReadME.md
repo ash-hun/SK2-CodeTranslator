@@ -10,3 +10,10 @@
 ※ This Github project you're looking at deals with <strong>"only Front-end"</strong>!<br>
 ※ This project was initiated by SK2 Team for the first time and all contents of the project will be assigned to SK2.
 </p>
+
+
+  <strong>§ 19.03.19. Meeting Details</strong><br>
+  1. 페이지 작업분량 확정.<br>
+    ＊ JHzest : Page #3,4,5<br>
+    ＊ hm : Page #1,2,6<br>
+  2. 디자인 수정사항 해결
