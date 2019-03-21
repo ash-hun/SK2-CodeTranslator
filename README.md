@@ -15,5 +15,8 @@
   <strong>§ 19.03.19. Meeting Details</strong><br>
   1. 페이지 작업분량 확정.<br>
     ＊ JHzest : Page #3,4,5<br>
-    ＊ hm : Page #1,2,6<br>
-  2. 디자인 수정사항 해결
+    ＊ hm5938 : Page #1,2,6<br>
+  2. 디자인 수정사항 해결<br>
+    ＊ zeplin을 이용한 협업시행<br>
+  3. 작업기간 추가배정<br>
+    ＊ 3월 31일 -> 4월 7일<br>
