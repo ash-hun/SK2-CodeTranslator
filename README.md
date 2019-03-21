@@ -4,6 +4,7 @@
 <strong>Team Name</strong> : Share Korea 2gther ( called <strong>"SK2"</strong> )<br>
 <strong>Contents</strong> : Programming code translate to nature language for beginner <br>
 <strong>Section</strong> : Front-end / Back-end / Data-Processing <br>
+<strong>Collaboration Tools</strong> : Git, Github Desktop, Zeplin <br>
 <br> 
 
 <p>
