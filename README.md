@@ -26,8 +26,8 @@
   <strong>§ 19.03.23. Notice</strong><br>
   1. Naming Rules<br>
     ＊ html내 class명과 id명은 최대한 한눈에 기능을 알아볼 수 있도록 정한다.<br>
-        ex) <div class="Entered signup members...."><br>
-            <div class="Loginform "><br>
+        ▶ class="Entered signup members...." <strong>(X)</strong><br>
+        ▶ class="Loginform "<strong>(O)</strong><br>
     ＊ 가능한 한 "핵심기능-부가기능-etc"순으로 네이밍한다.<br>
   2. 인터넷 브라우저의 경우 Chrome을 기준으로 개발하되 선 개발이후 타 브라우저의 호환을 고려하도록 한다.<br>
   3. 개발 진행시 역할에 맞는 directory에 파일을 모아서 저장한다.<br>
