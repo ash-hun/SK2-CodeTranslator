@@ -210,15 +210,16 @@
     display: inline-flex;
     background-color: red;
 }
-
+/*
 .cRA-bar{
     margin-left:80px;
     width: 9px;
     height: 390px;
     top: 10px;
     left:100px;
-    position:absolute;
+    position:relative;
     border-radius: 4.5px;
     float:left;
     background-color: red;
 }
+*/
