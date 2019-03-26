@@ -196,4 +196,29 @@
     background-color: #EAEAEA;
 }
 
-/*============================================*/
+/*==============================================*/
+/*==============================================
+     --------- Contents Css Styling ---------
+==============================================*/
+.uIA-bar{
+    margin-left:80px;
+    width: 9px;
+    height: 390px;
+    top: 10px;
+    position: relative;
+    border-radius: 4.5px;
+    display: inline-flex;
+    background-color: red;
+}
+
+.cRA-bar{
+    margin-left:80px;
+    width: 9px;
+    height: 390px;
+    top: 10px;
+    left:100px;
+    position:absolute;
+    border-radius: 4.5px;
+    float:left;
+    background-color: red;
+}
