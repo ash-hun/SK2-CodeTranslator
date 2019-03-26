@@ -1,18 +1,21 @@
-<h1>SK2 CodeTranlator</h1>
-
-<strong>Team Leader</strong> : Park Sang Woo <br>
-<strong>Team Name</strong> : Share Korea 2gther ( called <strong>"SK2"</strong> )<br>
-<strong>Contents</strong> : Programming code translate to nature language for beginner <br>
-<strong>Section</strong> : Front-end / Back-end / Data-Processing <br>
-<strong>Collaboration Tools</strong> : Git, Github Desktop, Zeplin <br>
-<br> 
+# SK2 CodeTranslator ( University Startup Team "SK2" )
+---
+## Project Overview
+TeamLeader : Park Sang Woo <br>
+TeamName : SK2( -> Share Korea 2gther ) <br>
+Contents : Programming code translate to nature language for beginner <br>
+Section : Front-end / Back-end / Data-Processing <br>
+Collaboration Tools ▼ <br>
+* Slack ▷ [link](https://slack.com "슬랙") <br>
+* Zeplin ▷ [link](https://zeplin.io "제플린") <br>
 
 <p>
 ※ This Github project you're looking at deals with <strong>"only Front-end"</strong>!<br>
 ※ This project was initiated by SK2 Team for the first time and all contents of the project will be assigned to SK2.
 </p>
 
-
+---
+## Project Record
   <strong>§ 19.03.19. Meeting Details</strong><br>
   1. 페이지 작업분량 확정.<br>
     ＊ JHzest : Page #3,4,5<br>
