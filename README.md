@@ -37,3 +37,12 @@ Collaboration Tools ▼ <br>
     ＊ ~~.css파일은 /Css 에 저장한다.<br>
     ＊ ~~.js파일은 /js 에 저장한다.<br>
     ＊ ~~.html파일은 index.html을 제외하면 /viewer에 모아놓되, 기능분류에 따라 /Subpage에 저장한다.<br>
+    
+  <strong>§ 19.03.26. Meeting Details</strong><br>
+  1. 디자인 이미지파일 요청<br>
+    ＊ SK2 로고 이미지<br>
+    ＊ Side Menu 반원 이미지<br>
+    ＊ 대지 #1 Background C 이미지<br>
+    ＊ 대지 #6 Background 사진에 일정비율 투명하도록 적용한 이미지<br>
+    
+    ※ 모든 이미지는 Illustrator로 작업한 Vector Image로 전달해주시길 바랍니다.
