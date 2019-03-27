@@ -49,4 +49,4 @@ Collaboration Tools ▼ <br>
 
   2. 개발부분 수정<br>
     ＊ 대지 #1의 우측상단 "Email"과 "Password"를 "Log in"과 "Sign Up"으로 변경<br>
-    ＊ 회원가입 폼 양식을 카피하여 로그인 폼을 <br>
+    ＊ 회원가입 폼 양식을 카피하여 로그인 폼을 제작합니다.<br>
