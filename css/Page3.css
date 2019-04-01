@@ -200,26 +200,34 @@
 /*==============================================
      --------- Contents Css Styling ---------
 ==============================================*/
+.usrInputArea{
+    width:470px;
+    height:60vh;
+    display:inline-block;
+}
+.codeReconstructionArea{
+    width:470px;
+    height:400px;
+    display:inline-block;
+}
+.languageSyntaxArea{
+    width:470px;
+    height:400px;
+    display:inline-block;
+}
 .uIA-bar{
     margin-left:80px;
     width: 9px;
-    height: 390px;
-    top: 10px;
-    position: relative;
+    height: 380px;
     border-radius: 4.5px;
-    display: inline-flex;
     background-color: red;
 }
-/*
+
 .cRA-bar{
     margin-left:80px;
     width: 9px;
     height: 390px;
-    top: 10px;
     left:100px;
-    position:relative;
     border-radius: 4.5px;
-    float:left;
     background-color: red;
 }
-*/
