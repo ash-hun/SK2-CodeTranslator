@@ -6,7 +6,8 @@ TeamName : SK2( -> Share Korea 2gther ) <br>
 Contents : Programming code translate to nature language for beginner <br>
 Section : Front-end / Back-end / Data-Processing <br>
 Collaboration Tools ▼ <br>
-* Slack ▷ [link](https://slack.com "슬랙") <br>
+* Kakao Talk ▷ [link](https://www.kakaocorp.com/service/KakaoTalk?lang=ko "카카오톡") <br>
+* Trello ▷ [link](https://trello.com "트렐로") <br>
 * Zeplin ▷ [link](https://zeplin.io "제플린") <br>
 
 <p>
@@ -45,7 +46,8 @@ Collaboration Tools ▼ <br>
     ＊ 대지 #1 Background C 이미지<br>
     ＊ 대지 #6 Background 사진에 일정비율 투명하도록 적용한 이미지<br>
     
-    ※ 모든 이미지는 Illustrator로 작업한 Vector Image로 전달해주시길 바랍니다. ( 확장자 >> ~~.svg를 기본으로 하여 필요시 디자이너를 통해 특정확장자로 변환하여 사용할 것. )
+    ※ 모든 이미지는 Illustrator로 작업한 Vector Image로 전달해주시길 바랍니다.
+       ( 확장자 >> ~~.svg를 기본으로 하여 필요시 디자이너를 통해 특정확장자로 변환하여 사용할 것. )
 
   2. 개발부분 수정<br>
     ＊ 대지 #1의 우측상단 "Email"과 "Password"를 "Log in"과 "Sign Up"으로 변경<br>
@@ -59,5 +61,5 @@ Collaboration Tools ▼ <br>
   
   <strong>§ 19.04.07. Notice</strong><br>
   1. Member Change<br>
-    ＊ 프로젝트를 진행하는 멤버중 JHzest가 자리를 비우고 타 멤버가 합류할 예정입니다. 기존 작업파일 및 공지숙지하셔서 원활한 프로젝트진행이 이루어지길 바라겠습니다.<br>
+    ＊ 프로젝트를 진행하는 멤버중 JHzest가 자리를 비우고 <strong>타 멤버</strong>가 합류할 예정입니다. 기존 작업파일 및 공지를 숙지하셔서 원활한 프로젝트 진행이 이루어지길 바라겠습니다.<br>
     
