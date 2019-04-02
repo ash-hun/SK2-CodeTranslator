@@ -45,11 +45,19 @@ Collaboration Tools ▼ <br>
     ＊ 대지 #1 Background C 이미지<br>
     ＊ 대지 #6 Background 사진에 일정비율 투명하도록 적용한 이미지<br>
     
-    ※ 모든 이미지는 Illustrator로 작업한 Vector Image로 전달해주시길 바랍니다.
+    ※ 모든 이미지는 Illustrator로 작업한 Vector Image로 전달해주시길 바랍니다. ( 확장자 >> ~~.svg를 기본으로 하여 필요시 디자이너를 통해 특정확장자로 변환하여 사용할 것. )
 
   2. 개발부분 수정<br>
     ＊ 대지 #1의 우측상단 "Email"과 "Password"를 "Log in"과 "Sign Up"으로 변경<br>
     ＊ 회원가입 폼 양식을 카피하여 로그인 폼을 제작합니다.<br>
 
-  <strong>§ 19.04.02. Meeting Details</strong><br>
-  1. 
+  <strong>§ 19.04.02. Meeting Details & Notice</strong><br>
+  1. Notice : 4월 2일을 기준으로 3주간 프로젝트를 일시중지하겠습니다.<br>
+    ＊ 팀원의 시험기간과 겹쳐 해당기간엔 프로젝트 진행을 하지 않겠습니다.
+    ＊ 현재 개인사정으로 학업과 관계없는 JHzest의 경우 프로젝트를 진행해도 무방합니다. 단, commit 메세지를 확실히 적어주시길 바랍니다.<br>
+  2. Meeting Details : <br>
+  
+  <strong>§ 19.04.07. Notice</strong><br>
+  1. Member Change<br>
+    ＊ 프로젝트를 진행하는 멤버중 JHzest가 자리를 비우고 타 멤버가 합류할 예정입니다. 기존 작업파일 및 공지숙지하셔서 원활한 프로젝트진행이 이루어지길 바라겠습니다.<br>
+    
