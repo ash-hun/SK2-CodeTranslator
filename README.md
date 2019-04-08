@@ -59,6 +59,7 @@ Collaboration Tools ▼ <br>
     ＊ 현재 개인사정으로 학업과 관계없는 JHzest의 경우 프로젝트를 진행해도 무방합니다. 단, commit 메세지를 확실히 적어주시길 바랍니다.<br>
   2. Meeting Details : 항목변경 논의사항<br>
     ＊ 대지 #1 ~ #6 하단 항목 "A, B, C, D" -> "Basic, Senior, Junior, ..etc"<br>
+    ＊ 단계적 느낌이 나도록 "A, B, C, D" 그대로 진행  
   
   <strong>§ 19.04.07. Notice</strong><br>
   1. Member Change<br>
