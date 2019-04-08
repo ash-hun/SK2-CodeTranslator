@@ -27,11 +27,9 @@
     color: #000000;
 }
 
-.MainLogo-explain {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 6px;
-    text-align: left;
-    color: #000000;
+.MainLogo a {
+    color:#000;
+    text-decoration: none;
 }
 
 .Topmenu {

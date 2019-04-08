@@ -1,0 +1,76 @@
+*{
+    margin:0;
+}
+
+body {
+    background-image: url('/res/join_bkg.png');
+}
+
+#Center_whitespace {
+    display:block;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 31%;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.SK2 {
+    font-family: Helvetica;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #000000;
+}
+
+input.box {
+    width: 333px;
+    height: 35px;
+    border: solid 3px #ff0000;
+    background-color: #ffffff;
+}
+
+.valueBox{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+.valueBox p{
+    margin:2px;
+    font-style: oblique;
+}
+
+input#join {
+    width: 333px;
+    height: 35px;
+    font-family: Helvetica95;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    border: solid 3px #ff0000;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ff0000;
+}
+
+input#join:hover {
+    color: #000000;
+    background-color: #ff0000;
+    opacity: 0.8;
+}
+
+
+div.innerbox {
+    font-family: Helvetica95;
+    font-size: 20px;
+    float: center;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}

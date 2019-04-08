@@ -1,0 +1,92 @@
+*{
+    margin:0;
+}
+
+body {
+    background: url('/res/login_background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#center_whiteBox {
+    display:block;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 31%;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+p.SK2 {
+    font-family: Helvetica;
+    font-style: oblique;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #000000;
+}
+
+.innerBox{
+    display: block;
+    position: relative;
+    padding-top:80px;
+    padding-bottom: 50px;
+}
+
+.valueBox{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+input.box {
+    width: 333px;
+    height: 35px;
+    border: solid 3px #ff0000;
+    background-color: #ffffff;
+}
+
+input#join {
+    margin-top: 100px;
+    width: 333px;
+    height: 35px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    border: solid 3px #ff0000;
+    text-align: center;
+    background-color: #ff0000;
+}
+
+input#join:hover {
+    width: 333px;
+    height: 35px;
+    margin-top:100px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #000000;
+    border: solid 3px #ff0000;
+    text-align: center;
+    background-color: #ff0000;
+    opacity: 0.8;
+}
+
+.font {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: oblique;
+    float: center;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
