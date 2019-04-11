@@ -4,7 +4,7 @@
 
 body {
     background-color: #fff;
-    //overflow: hidden;
+    overflow: hidden;
 }
 
 /*-----------------------------------------------------
@@ -29,7 +29,7 @@ body {
 
 #right {
     margin-top: 2%;
-    width: 48%;
+    width: 42%;
     float: right;
 }
 
@@ -105,7 +105,7 @@ body {
     border-radius: 0px 100px 100px 0px;
     cursor: pointer;
 }
-
+/*
 .sidedetails{
     background: #fff000;
     height:100px;
@@ -127,11 +127,11 @@ body {
     transition:0.4s;
 }
 
-.sidedetails a p{
+.sidedetails a{
     font-family: helvetica95;
     color:#000;
     font-style: italic;
-    font-size:15px;
+    font-size:12px;
 }
 
 .sidedetails a:nth-child(1){
@@ -140,12 +140,13 @@ body {
 
 .sidedetails a:nth-child(2){
     top:17px;
-    right:2px;
 }
 
 .sidedetails a:nth-child(3){
     
 }
+*/
+
 .bkgImage {
     width: 100vw;
     height: 80vh;
