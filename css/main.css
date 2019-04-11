@@ -3,38 +3,39 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fff;
+    //overflow: hidden;
 }
 
 /*-----------------------------------------------------
                Front Nav Area Css Styling
 -----------------------------------------------------*/
 .front_nav_Area {
-    margin: 7px;
+    width: 100%;
+    height: 10vh;
 }
 
 .SK2 {
-    margin: 5px;
-    font-family: Helvetica95;
-    font-size: 60px;
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
-    text-decoration: none;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #000000;
+    margin-top: 7px;
+    margin-left: 7px;
+    width: 12%;
+    height: 10%;
+    background-image: url('/res/sk2logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
 }
 
 #right {
-    margin-top: 3vh;
-    width: 40%;
+    margin-top: 2%;
+    width: 48%;
+    float: right;
 }
 
 .inputbox {
     margin-left: 3px;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .EMAIL {
@@ -66,23 +67,22 @@ body {
 }
 
 .Reddot {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     background-color: red;
-    position: fixed;
-    right: 10px;
-    top: 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: 0.3s;
 }
 
-/*
-#small {
-    width: 12px;
-    height: 12px;
-    border-radius: 50px 50px;
-    background-color: #ff0000;
+.Reddot:hover {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
-*/
+
 
 /*-----------------------------------------------------
                Center Section Css Styling
@@ -95,45 +95,72 @@ body {
     text-align: center;
 }
 
-.CS_contents{
-    display: block;
-}
-
-.SideMenu{
-    width:50px;
-    height:100px;
-    float:left;
-    position:fixed;
-    top:40%;
-    border:2px solid red;
+.SideMenu {
+    width: 40px;
+    height: 80px;
+    float: left;
+    position: fixed;
+    top: 45vh;
     background-color: red;
     border-radius: 0px 100px 100px 0px;
+    cursor: pointer;
 }
 
+.sidedetails{
+    background: #fff000;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(3);
+    top:43vh;
+    left:-3%;
+    margin:auto;
+    z-index: -1;
+    transition: 0.7s;
+}
+
+.sidedetails a{
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    transition:0.4s;
+}
+
+.sidedetails a p{
+    font-family: helvetica95;
+    color:#000;
+    font-style: italic;
+    font-size:15px;
+}
+
+.sidedetails a:nth-child(1){
+    top:10px;
+}
+
+.sidedetails a:nth-child(2){
+    top:17px;
+    right:2px;
+}
+
+.sidedetails a:nth-child(3){
+    
+}
 .bkgImage {
-    width: inherit;
-    height: inherit;
-    background-image: url(/res/login_background.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-image: url('/res/main_background.png');
     background-repeat: no-repeat;
-}
-
-menu.big {
-    width: 41px;
-    height: 82px;
-    border-bottom-left-radius: 0px 0px;
-    border-top-left-radius: 0px 0px;
-    border-top-right-radius: 50px 50px;
-    border-bottom-right-radius: 50px 50px;
-    float: center;
-    background-color: #ff0000;
+    background-position: center;
 }
 
 /*-----------------------------------------------------
                    end_Area Css Styling
 -----------------------------------------------------*/
-end_Area{
+end_Area {
     margin-bottom: 10px;
 }
+
 .MENU {
     text-decoration: none;
     font-family: Helvetica;
@@ -169,8 +196,4 @@ input.email {
     letter-spacing: 40px;
     text-align: center;
     float: center;
-}
-
-#right {
-    float: right;
 }
