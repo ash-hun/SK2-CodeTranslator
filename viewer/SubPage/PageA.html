@@ -2,145 +2,50 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Insert title here</title>
-
-    <style>
-        head * {
-            margin: 0 auto;
-            overflow: auto;
-        }
-
-        .SK2 {
-            font-family: Helvetica95;
-            font-size: 40px;
-            font-weight: 900;
-            color: #000000;
-            margin-right: 15%;
-            font-align: left;
-            float: left;
-        }
-
-        .article {
-            margin-bottom: 1em;
-            padding: 10px 0px 10px 0px;
-            height: 10em;
-            color: #000000;
-            font-align: left;
-            float: left;
-        }
-
-        .title {
-            font-family: Helvetica95;
-            font-size: 25px;
-        }
-
-        .conten {
-            color: #000000;
-            font-family: Helvetica Neue;
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .box {
-            width: 50%;
-        }
-
-        .b {
-
-            font-family: Helvetica;
-            font-size: 30px;
-            font-weight: 900;
-            font-style: bold oblique;
-            color: #000000;
-            padding: 20px;
-            margin: 5%;
-        }
-
-        .a {
-
-            font-family: Helvetica;
-            font-size: 30px;
-            font-weight: 900;
-            font-style: bold oblique;
-            color: #ff0000;
-            padding: 20px;
-            margin: 5%;
-        }
-
-        .b:hover {
-
-            font-family: Helvetica;
-            font-size: 30px;
-            font-weight: 900;
-            font-style: bold oblique;
-            color: #ff0000;
-            padding: 20px;
-            margin: 5%;
-        }
-
-        .說除夥 {
-            width: 9px;
-            margin: 2%;
-            height: 389px;
-            border-radius: 4.5px;
-            background-color: #ff0000;
-        }
-
-        .n {
-            width: 90%;
-            margin: 0 auto;
-        }
-
-        #center {
-            float: center;
-            background-position: center;
-            margin: 0 auto;
-        }
-
-        #small {
-            width: 12px;
-            height: 12px;
-            border-radius: 50px 50px;
-            background-color: #ff0000;
-            font-align: right;
-            float: right;
-        }
-    </style>
+    <title>SK2 - Code Translator</title>
+    <link rel="stylesheet" href="/css/PageA.css">
 </head>
 
 <body>
-    <a href="login.html"><input id="small" type="image" />
-    </a>
-    <a href="/index.html">
-        <div class="SK2">SK2</div>
-    </a>
-    <section id="center">
-        <span class=" a"><a href="/viewer/SubPage/PageA.html">A</a></span>
-        <span class=" b"><a href="/viewer/SubPage/PageB.html">B</a></span>
-        <span class=" b">C</span>
-        <span class=" b">D</span>
-    </section>
+    <!--
+    ==========================================
+                Top Area Contents 
+    ==========================================
+                                                -->
+    <div class="topArea" id="topArea">
+        <a href="/index.html">
+            <div class="SK2"></div>
+        </a>
 
-    <br><br><br><br><br><br><br><br>
-    <div class="n">
-        <div class="article 說除夥"></div>
-        <div class="article box">
-            <p class="title">Post Card Title</p>
-            <p class="conten">Post Title about Descirption or Wirting Date</p>
-            <br><br>
-            <p class="conten">Contens ; </p>
-            <p class="conten">Contens Descirption ;</p>
-        </div>
-        <div class="article 說除夥">
-        </div>
-        <div class="article">
-            <p class="title">Group Post Card Title</p>
-            <br><br>
-            <p class="conten">Contens ;</p>
+        <section class="center_TopMenu" id="center_TopMenu">
+            <a class="A" href="/viewer/SubPage/PageA.html" style="color:red;">A</a>
+            <a class="B" href="/viewer/SubPage/PageB.html">B</a>
+            <a class="C" href="#">C</a>
+            <a class="D" href="#">D</a>
+        </section>
+        <a href="/viewer/SubPage/signup.html">
+            <div class="Reddot" id="Reddot"></div>
+        </a>
+    </div>
+
+    <!--
+    ===============================================
+                    Page A Contents 
+    ===============================================
+                                                -->
+    <div class="contents" id="contents">
+        <div class="innerContents" id="innerContents">
+            <div class="Area" id="leftArea">
+                <div class="SideBar"></div>
+                <div class="box">
+                    
+                </div>
+            </div>
+            <div class="Area" id="rightArea">
+                <div class="SideBar"></div>
+                <div class="box">
+                </div>
+            </div>
         </div>
     </div>
 </body></html>
-
-
-
-

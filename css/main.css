@@ -1,9 +1,10 @@
 * {
     margin: 0;
+    padding:0;
 }
 
 body {
-    background-color: #fff;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -29,8 +30,24 @@ body {
 
 #right {
     margin-top: 2%;
-    width: 42%;
+    width: 45%;
     float: right;
+}
+
+.loginbox{
+    width: 55px;
+    height: 30px;
+    border-radius: 12%;
+    display:inline-block;
+    text-align:center;
+    background-color:#ff0000;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style:normal;
+    color:white;
+    cursor: pointer;
 }
 
 .inputbox {
@@ -105,16 +122,16 @@ body {
     border-radius: 0px 100px 100px 0px;
     cursor: pointer;
 }
-/*
+
 .sidedetails{
-    background: #fff000;
-    height:100px;
-    width:100px;
+    background: #ff0000;
+    height:200px;
+    width:200px;
     border-radius: 50%;
     position: absolute;
-    transform: scale(3);
-    top:43vh;
-    left:-3%;
+    transform: scale(0);
+    left:-7%;
+    top:37.5vh;
     margin:auto;
     z-index: -1;
     transition: 0.7s;
@@ -122,30 +139,44 @@ body {
 
 .sidedetails a{
     display: inline-block;
-    text-decoration: none;
     position: absolute;
-    transition:0.4s;
-}
-
-.sidedetails a{
+    font-size:18px;
     font-family: helvetica95;
-    color:#000;
-    font-style: italic;
-    font-size:12px;
+    text-decoration: none;
+    font-style: oblique;
+    color:#000000;
+    transition:0.4s;
+    z-index: 1;
 }
 
 .sidedetails a:nth-child(1){
-    top:10px;
+    top:45px;
+    left:105px;
 }
 
 .sidedetails a:nth-child(2){
-    top:17px;
+    top:63px;
+    left:125px;
 }
 
 .sidedetails a:nth-child(3){
-    
+    top:87px;
+    left:135px;
 }
-*/
+
+.sidedetails a:nth-child(4){
+    top:113px;
+    left:125px;
+}
+
+.sidedetails a:nth-child(5){
+    top:130px;
+    left:104px;
+}
+
+.sidedetails a:hover{
+    color: #ffffff;
+}
 
 .bkgImage {
     width: 100vw;
@@ -190,7 +221,7 @@ input.email {
     left: 30vw;
     right: 25vw;
     display: inline-flex contents;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Helvetica95;
     font-size: 35px;
     font-weight: 900;
     font-style: oblique;

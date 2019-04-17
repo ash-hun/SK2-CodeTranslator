@@ -9,6 +9,11 @@
 </head>
 
 <body>
+<!--
+    ==========================================
+                Top Area Contents 
+    ==========================================
+                                                -->
     <div class="front_nav_Area">
         <a href="index.html">
             <div class="SK2"></div>
@@ -20,25 +25,49 @@
             <span class="PASSWORD">PASSWORD :
                 <input class="inputbox" type="password" name="password" />
             </span>
+            <span class="loginbox" id="loginbox">Log-in</span>
             <a href="/viewer/SubPage/signup.html">
                 <div class="Reddot" id="Reddot"></div>
             </a>
         </section>
     </div>
-
+<!--
+    ==========================================
+                Center Area Contents 
+    ==========================================
+                                                -->
     <div class="Center_Section">
-        <div class="SideMenu"></div>
-        <!---
+        <div id="SideMenu" class="SideMenu" onclick="sidedetails-expand()"></div>
         <div class="sidedetails" id="sidedetails">
-            <a href="#">A.</a>
-            <a href="#">B.</a>
+            <a href="/viewer/SubPage/PageA.html">A.</a>
+            <a href="/viewer/SubPage/PageB.html">B.</a>
+            <a href="#">SK2.</a>
             <a href="#">C.</a>
             <a href="#">D.</a>
-            <a href="#">SK2.</a>
-        </div>--->
+        </div>
         <div class="bkgImage"></div>
     </div>
+    
+    <script>
+        var i = 0;
 
+        function expand() {
+            if (i == 0) {
+                document.getElementById("sidedetails").style.transform = "scale(1.5)";
+                document.getElementById("SideMenu").style.backgroundColor = "#fff";
+                i = 1;
+            } else {
+                document.getElementById("sidedetails").style.transform = "scale(0)";
+                document.getElementById("SideMenu").style.backgroundColor = "#ff0000";
+                i = 0;
+            }
+        }
+    </script>
+    <!--
+    ==========================================
+                End Area Contents 
+    ==========================================
+                                                -->
     <div class="end_Area">
         <div id="lower_Menu">
             <a class="MENU" href="/viewer/SubPage/PageA.html">A</a>
@@ -47,5 +76,4 @@
             <a class="MENU" href="#">D</a>
         </div>
     </div>
-</body>
-</html>
+</body></html>
